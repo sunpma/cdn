@@ -10,7 +10,7 @@
 
 5、执行升级脚本：bash update.sh
 
-6、删除升级包：cd .. && rm -f LinuxPanel-*.zip && rm -rf panel
+6、删除升级包：rm -f LinuxPanel-*.zip && rm -rf panel
 
 ### 下载
 ```
