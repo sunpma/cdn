@@ -21,7 +21,10 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/sunp
 ```
 curl https://raw.githubusercontent.com/sunpma/cdn/master/bt/5.9.1/update_pro.sh | bash 
 ```
-
+### 下载
+```
+wget https://raw.githubusercontent.com/sunpma/cdn/master/bt/LinuxPanel-7.4.5.zip
+```
 ### 恢复免费面板
 ```
 wget -O update.sh http://download.bt.cn/install/update.sh && bash update.sh free
