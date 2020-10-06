@@ -1,6 +1,6 @@
-# 宝塔 5.9.1
+### 宝塔 5.9.1
 安装方法（宝塔 5.9.1 开心版面板）
-使用 SSH 连接工具 连接到您的 Linux服务器后，根据系统执行相应命令开始安装（大约2分钟完成面板安装）：
+使用SSH连接工具连接到您的Linux服务器后，根据系统执行相应命令开始安装（大约2分钟完成面板安装）：
 
 centos安装脚本:
 ```
@@ -17,12 +17,12 @@ debian安装脚本：
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/sunpma/cdn/bt/5.9.1/master/install-ubuntu.sh && bash install.sh
 ```
 
-如果 你是免费的 5.x 宝塔面板 可以使用脚本 升到最新的开心版 5.9.1 面板 或者 输入：
+如果你是免费的5.x宝塔面板可以使用脚本升到最新的开心版5.9.1面板 输入：
 ```
 curl https://raw.githubusercontent.com/sunpma/cdn/bt/5.9.1/master/update_pro.sh | bash 
 ```
 
-恢复免费面板:
+### 恢复免费面板
 ```
 wget -O update.sh http://download.bt.cn/install/update.sh && bash update.sh free
 ```
