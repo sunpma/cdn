@@ -20,3 +20,7 @@ wget https://raw.githubusercontent.com/sunpma/cdn/master/bt/LinuxPanel-7.4.5.zip
 ```
 echo '127.0.0.1 bt.cn' >>/etc/hosts
 ```
+### 历史版本下载地址：
+```
+http://download.bt.cn/install/update/LinuxPanel-7.5.2.zip
+```
