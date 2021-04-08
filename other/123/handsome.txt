@@ -1,0 +1,55 @@
+[button color="success" url="连接" type=""]点击下载[/button]
+[button color="black" icon="" url="连接" type=""]点击下载[/button]
+[button color="info" icon="" url="连接" type=""]点击下载[/button]
+[button color="dark" icon="" url="连接" type=""]点击下载[/button]
+[button color="warning" icon="" url="连接" type=""]点击下载[/button]
+[button color="danger" url="连接" type=""]点击下载[/button]
+
+[scode type="share"]这里编辑标签内容[/scode]
+[scode type="yellow"]这里编辑标签内容[/scode]
+[scode type="red"]这里编辑标签内容[/scode]
+[scode type="blue"]这里编辑标签内容[/scode]
+[scode type="green"]这里编辑标签内容[/scode]
+
+[collapse status="false" title="**展开查看详情**"]这里编辑收缩框内容[/collapse]
+
+小版头图大小：200*194 px
+大版头图大小：688*250 px
+大版头图大小：1200*560 px
+
+[dplayer url="视频链接" pic="封面截图" danmu="false"/]
+心情说视频
+[vplayer url="视频链接"]
+
+姓名|小王|老王
+--|--|--
+颜值|185.5|50
+身高|178|165
+
+## <strong style="color:#000000">黑色</strong> ##
+## <strong style="color:#FF0000">红色</strong> ##
+## <strong style="color:#008000">绿色</strong> ##
+## <strong style="color:#0000FF">蓝色</strong> ##
+## <strong style="color:#D2691E">棕色</strong> ##
+## <strong style="color:#4D80BF">链接蓝</strong> ##
+## <strong style="color:#808000">橄榄绿</strong> ##
+
+<img src="图片链接">
+![image](图片链接)
+
+[超链接](https://sunpma.com)
+
+<center><font face="仿宋" size=10>十号仿宋体文字居中</font></center>
+<center><font face="楷体" size=6>六号楷体文字居中</font></center>
+<center><font face="宋体" size=4>四号宋体文字居中</font></center>
+<center><font face="黑体" size=2>二号黑体文字居中</font></center>
+
+Gravatar 头像 CDN 加速
+左岸博客CND源 https://avatar.zrahh.com/avatar
+gravatar官方的www源 https://www.gravatar.com/avatar
+gravatar官方的cn源 https://cn.gravatar.com/avatar
+gravatar官方的en源 https://en.gravatar.com/avatar
+gravatar官方的secure源 https://secure.gravatar.com/avatar
+V2EX源 https://cdn.v2ex.com/gravatar
+Loli源 https://gravatar.loli.net/avatar
+极客族 https://sdn.geekzu.org/avatar
