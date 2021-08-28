@@ -248,8 +248,8 @@ function getGrub(){
   if [ -z "$fileName" ]; then
     ls -1 "$folder" 2>/dev/null |grep -q '^grubenv$'
     [ $? -eq 0 ] || return
-    grubEnv=`readlink -f "${folder}/grubenv"`
-    folder=`dirname "$grubEnv"`
+    folder=`find "$Boot" -type f -name "grubenv" 2>/dev/null |xargs dirname |grep -v "^$folder" |head -n1`
+    [ -n "$folder" ] || return
     fileName=`ls -1 "$folder" 2>/dev/null |grep '^grub.conf$\|^grub.cfg$'`
   fi
   [ -n "$fileName" ] || return
@@ -314,7 +314,7 @@ if [[ "$VER" != "arm64" ]] && [[ -n "$tmpVER" ]]; then
   case "$tmpVER" in i386|i686|x86|32) VER="i386";; amd64|x86_64|x64|64) [[ "$Relese" == 'CentOS' ]] && VER='x86_64' || VER='amd64';; *) VER='';; esac
 fi
 
-if [[ -z "$VER" ]]; then
+if [[ ! -n "$VER" ]]; then
   echo "Error! Not Architecture."
   bash $0 error;
   exit 1;
