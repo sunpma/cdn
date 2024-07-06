@@ -85,7 +85,7 @@ unset_swap(){
                 echo -e " "
             else
                 echo -e " "
-                echo -e "\033[34m脚本执行完毕，现有交换分区已删除 \033[0m"
+                echo -e "\033[34m现有交换分区已删除 \033[0m"
                 echo -e " "
             fi
         else
